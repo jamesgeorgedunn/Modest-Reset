@@ -23,6 +23,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	display: block;
 }
 
+/* Allows the vertical scrollbar to always stay present */
 html {
 	overflow-y: scroll;
 }
@@ -49,10 +50,12 @@ table {
 	border-spacing: 0;
 }
 
+/* Prevents users from resizing textareas */
 textarea {
 	resize: none;
 }
 
+/* Prevents marching ants appearing around links */
 a:active, a:focus {
 	outline: none;
 }
