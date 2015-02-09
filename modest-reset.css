@@ -63,6 +63,12 @@ a:active, a:focus {
 	outline: none;
 }
 
+/* Removes the glow from input box on focus */
+input, textarea {
+	outline: none;
+}
+
+/* Removes 3px appearing underneath imagery */
 img {
 	vertical-align: middle;
 }
