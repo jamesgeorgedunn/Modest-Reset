@@ -30,9 +30,9 @@ html {
 
 body {
 	line-height: 1;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 ol, ul {
@@ -61,4 +61,8 @@ textarea {
 /* Prevents marching ants appearing around links */
 a:active, a:focus {
 	outline: none;
+}
+
+img {
+	vertical-align: middle;
 }
